@@ -2,19 +2,20 @@ import React from 'react'
 import { Header } from '../Header/Header'
 import { Infor } from '../Infor/Infor'
 import { Head } from '../Head/Head'
-import { Body } from '../Body/Body'
+import { Main } from '../Main/Main'
+
 
 export const Home = () => {
   return (
     <>
-    <Body>
+   
     <Header>
 <Head></Head>
-
-    </Header>
-
+  </Header>
+<Main>
     <Infor></Infor>
-    </Body>
+    </Main>
+   
     </>
   )
 }
